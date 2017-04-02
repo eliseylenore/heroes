@@ -26,7 +26,11 @@ import { RouterModule } from '@angular/router';
         path: '',
         redirectTo: '/dashboard',
         pathMatch: 'full'
-      }
+      },
+      {
+        path: 'detail/:id',
+        component: HeroDetailComponent
+      },
     ])
   ],
   declarations: [
